@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+xcodeproj 'IFTTTLaunchImage'
+
+platform :ios, '7.0'
+
+def install_pods
+  pod "IFTTTLaunchImage", :path => "../IFTTTLaunchImage.podspec"
+end
+
+target 'IFTTTLaunchImage', :exclusive => true do
+  install_pods
+end
+
+target 'IFTTTLaunchImageTests', :exclusive => true do
+  install_pods
+end

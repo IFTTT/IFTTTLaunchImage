@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB3036E1A5DD7A400C19E11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB3036D1A5DD7A400C19E11 /* main.m */; };
+		5EB303711A5DD7A400C19E11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB303701A5DD7A400C19E11 /* AppDelegate.m */; };
+		5EB303741A5DD7A400C19E11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB303731A5DD7A400C19E11 /* ViewController.m */; };
+		5EB303791A5DD7A400C19E11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB303781A5DD7A400C19E11 /* Images.xcassets */; };
+		5EB303881A5DD7A400C19E11 /* IFTTTLaunchImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB303871A5DD7A400C19E11 /* IFTTTLaunchImageTests.m */; };
+		983FB1895A2E8E82EEBF00F9 /* libPods-IFTTTLaunchImageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A762341FA1F033292B6EF551 /* libPods-IFTTTLaunchImageTests.a */; };
+		E0A7CBDBCC072BBD3FE5071D /* libPods-IFTTTLaunchImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CB31BB89D0F6204DA1850D /* libPods-IFTTTLaunchImage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB303821A5DD7A400C19E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB303601A5DD7A400C19E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB303671A5DD7A400C19E11;
+			remoteInfo = IFTTTLaunchImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1432A3428F9F2DCA410E1941 /* Pods-IFTTTLaunchImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTTTLaunchImageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFTTTLaunchImageTests/Pods-IFTTTLaunchImageTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EB303681A5DD7A400C19E11 /* IFTTTLaunchImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFTTTLaunchImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB3036C1A5DD7A400C19E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB3036D1A5DD7A400C19E11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EB3036F1A5DD7A400C19E11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EB303701A5DD7A400C19E11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EB303721A5DD7A400C19E11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EB303731A5DD7A400C19E11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EB303781A5DD7A400C19E11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5EB303811A5DD7A400C19E11 /* IFTTTLaunchImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IFTTTLaunchImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB303861A5DD7A400C19E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB303871A5DD7A400C19E11 /* IFTTTLaunchImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFTTTLaunchImageTests.m; sourceTree = "<group>"; };
+		69CB31BB89D0F6204DA1850D /* libPods-IFTTTLaunchImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IFTTTLaunchImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7762362B00FC7AA93CD2C7FF /* Pods-IFTTTLaunchImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTTTLaunchImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFTTTLaunchImage/Pods-IFTTTLaunchImage.release.xcconfig"; sourceTree = "<group>"; };
+		837C2206F98F4A1FB1EED395 /* Pods-IFTTTLaunchImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTTTLaunchImageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IFTTTLaunchImageTests/Pods-IFTTTLaunchImageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A762341FA1F033292B6EF551 /* libPods-IFTTTLaunchImageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IFTTTLaunchImageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3F2D39B0ED76B5E83594BA /* Pods-IFTTTLaunchImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTTTLaunchImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IFTTTLaunchImage/Pods-IFTTTLaunchImage.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB303651A5DD7A400C19E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A7CBDBCC072BBD3FE5071D /* libPods-IFTTTLaunchImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB3037E1A5DD7A400C19E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983FB1895A2E8E82EEBF00F9 /* libPods-IFTTTLaunchImageTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54468642F7133948620FD214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69CB31BB89D0F6204DA1850D /* libPods-IFTTTLaunchImage.a */,
+				A762341FA1F033292B6EF551 /* libPods-IFTTTLaunchImageTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EB3035F1A5DD7A400C19E11 = {
+			isa = PBXGroup;
+			children = (
+				5EB3036A1A5DD7A400C19E11 /* IFTTTLaunchImage */,
+				5EB303841A5DD7A400C19E11 /* IFTTTLaunchImageTests */,
+				5EB303691A5DD7A400C19E11 /* Products */,
+				FF89550ABB5FB45BCD193671 /* Pods */,
+				54468642F7133948620FD214 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB303691A5DD7A400C19E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB303681A5DD7A400C19E11 /* IFTTTLaunchImage.app */,
+				5EB303811A5DD7A400C19E11 /* IFTTTLaunchImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB3036A1A5DD7A400C19E11 /* IFTTTLaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				5EB3036F1A5DD7A400C19E11 /* AppDelegate.h */,
+				5EB303701A5DD7A400C19E11 /* AppDelegate.m */,
+				5EB303721A5DD7A400C19E11 /* ViewController.h */,
+				5EB303731A5DD7A400C19E11 /* ViewController.m */,
+				5EB303781A5DD7A400C19E11 /* Images.xcassets */,
+				5EB3036B1A5DD7A400C19E11 /* Supporting Files */,
+			);
+			path = IFTTTLaunchImage;
+			sourceTree = "<group>";
+		};
+		5EB3036B1A5DD7A400C19E11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB3036C1A5DD7A400C19E11 /* Info.plist */,
+				5EB3036D1A5DD7A400C19E11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EB303841A5DD7A400C19E11 /* IFTTTLaunchImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB303871A5DD7A400C19E11 /* IFTTTLaunchImageTests.m */,
+				5EB303851A5DD7A400C19E11 /* Supporting Files */,
+			);
+			path = IFTTTLaunchImageTests;
+			sourceTree = "<group>";
+		};
+		5EB303851A5DD7A400C19E11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB303861A5DD7A400C19E11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF89550ABB5FB45BCD193671 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB3F2D39B0ED76B5E83594BA /* Pods-IFTTTLaunchImage.debug.xcconfig */,
+				7762362B00FC7AA93CD2C7FF /* Pods-IFTTTLaunchImage.release.xcconfig */,
+				837C2206F98F4A1FB1EED395 /* Pods-IFTTTLaunchImageTests.debug.xcconfig */,
+				1432A3428F9F2DCA410E1941 /* Pods-IFTTTLaunchImageTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB303671A5DD7A400C19E11 /* IFTTTLaunchImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB3038B1A5DD7A400C19E11 /* Build configuration list for PBXNativeTarget "IFTTTLaunchImage" */;
+			buildPhases = (
+				AF1B58B3FF43FF7215D859B3 /* Check Pods Manifest.lock */,
+				5EB303641A5DD7A400C19E11 /* Sources */,
+				5EB303651A5DD7A400C19E11 /* Frameworks */,
+				5EB303661A5DD7A400C19E11 /* Resources */,
+				E9DFC068EC98C660C5C9F58C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFTTTLaunchImage;
+			productName = IFTTTLaunchImage;
+			productReference = 5EB303681A5DD7A400C19E11 /* IFTTTLaunchImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EB303801A5DD7A400C19E11 /* IFTTTLaunchImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB3038E1A5DD7A400C19E11 /* Build configuration list for PBXNativeTarget "IFTTTLaunchImageTests" */;
+			buildPhases = (
+				D0568133C6759D9468478770 /* Check Pods Manifest.lock */,
+				5EB3037D1A5DD7A400C19E11 /* Sources */,
+				5EB3037E1A5DD7A400C19E11 /* Frameworks */,
+				5EB3037F1A5DD7A400C19E11 /* Resources */,
+				767E436FE185A4D7C3C9EFDF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB303831A5DD7A400C19E11 /* PBXTargetDependency */,
+			);
+			name = IFTTTLaunchImageTests;
+			productName = IFTTTLaunchImageTests;
+			productReference = 5EB303811A5DD7A400C19E11 /* IFTTTLaunchImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB303601A5DD7A400C19E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = IFTTT;
+				TargetAttributes = {
+					5EB303671A5DD7A400C19E11 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5EB303801A5DD7A400C19E11 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5EB303671A5DD7A400C19E11;
+					};
+				};
+			};
+			buildConfigurationList = 5EB303631A5DD7A400C19E11 /* Build configuration list for PBXProject "IFTTTLaunchImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EB3035F1A5DD7A400C19E11;
+			productRefGroup = 5EB303691A5DD7A400C19E11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB303671A5DD7A400C19E11 /* IFTTTLaunchImage */,
+				5EB303801A5DD7A400C19E11 /* IFTTTLaunchImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB303661A5DD7A400C19E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB303791A5DD7A400C19E11 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB3037F1A5DD7A400C19E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		767E436FE185A4D7C3C9EFDF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IFTTTLaunchImageTests/Pods-IFTTTLaunchImageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF1B58B3FF43FF7215D859B3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0568133C6759D9468478770 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9DFC068EC98C660C5C9F58C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IFTTTLaunchImage/Pods-IFTTTLaunchImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB303641A5DD7A400C19E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB303741A5DD7A400C19E11 /* ViewController.m in Sources */,
+				5EB303711A5DD7A400C19E11 /* AppDelegate.m in Sources */,
+				5EB3036E1A5DD7A400C19E11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB3037D1A5DD7A400C19E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB303881A5DD7A400C19E11 /* IFTTTLaunchImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EB303831A5DD7A400C19E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB303671A5DD7A400C19E11 /* IFTTTLaunchImage */;
+			targetProxy = 5EB303821A5DD7A400C19E11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EB303891A5DD7A400C19E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EB3038A1A5DD7A400C19E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB3038C1A5DD7A400C19E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3F2D39B0ED76B5E83594BA /* Pods-IFTTTLaunchImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = IFTTTLaunchImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EB3038D1A5DD7A400C19E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7762362B00FC7AA93CD2C7FF /* Pods-IFTTTLaunchImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = IFTTTLaunchImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EB3038F1A5DD7A400C19E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837C2206F98F4A1FB1EED395 /* Pods-IFTTTLaunchImageTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IFTTTLaunchImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IFTTTLaunchImage.app/IFTTTLaunchImage";
+			};
+			name = Debug;
+		};
+		5EB303901A5DD7A400C19E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1432A3428F9F2DCA410E1941 /* Pods-IFTTTLaunchImageTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IFTTTLaunchImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IFTTTLaunchImage.app/IFTTTLaunchImage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB303631A5DD7A400C19E11 /* Build configuration list for PBXProject "IFTTTLaunchImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB303891A5DD7A400C19E11 /* Debug */,
+				5EB3038A1A5DD7A400C19E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB3038B1A5DD7A400C19E11 /* Build configuration list for PBXNativeTarget "IFTTTLaunchImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB3038C1A5DD7A400C19E11 /* Debug */,
+				5EB3038D1A5DD7A400C19E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB3038E1A5DD7A400C19E11 /* Build configuration list for PBXNativeTarget "IFTTTLaunchImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB3038F1A5DD7A400C19E11 /* Debug */,
+				5EB303901A5DD7A400C19E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB303601A5DD7A400C19E11 /* Project object */;
+}
