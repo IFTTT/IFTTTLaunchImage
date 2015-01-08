@@ -1,6 +1,6 @@
 //
-//  UIImage+SPLLaunchImage.h
-//  SPLLaunchImage
+//  UIImage+IFTTTLaunchImage.h
+//  IFTTTLaunchImage
 //
 //  Created by Jonathan Hersh on 1/7/15.
 //  Copyright (c) 2015 Jonathan Hersh. All rights reserved.
