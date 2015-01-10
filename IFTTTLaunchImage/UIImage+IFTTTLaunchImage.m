@@ -1,5 +1,5 @@
 //
-//  UIImage+IFTTTLaunchImage.h
+//  UIImage+IFTTTLaunchImage.m
 //  IFTTTLaunchImage
 //
 //  Created by Jonathan Hersh on 1/7/15.
