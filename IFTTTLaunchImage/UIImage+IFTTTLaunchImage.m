@@ -42,6 +42,8 @@ NSString * const kIFTTTDefaultLaunchImageSetName = @"LaunchImage";
         } else {
             [imageName appendString:@"-800-Portrait-736h"];
         }
+    } else {
+        [imageName appendString:@"-700"];
     }
         
     return [UIImage imageNamed:imageName];
