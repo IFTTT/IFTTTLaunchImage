@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "IFTTTLaunchImage"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Put your asset catalog launch images to work for you."
   s.homepage         = "https://github.com/ifttt/IFTTTLaunchImage"
   s.license          = 'MIT'
