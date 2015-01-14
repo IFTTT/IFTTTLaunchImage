@@ -38,7 +38,7 @@
     static IFTTTSplashView *splashView;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        splashView = [[IFTTTSplashView alloc] initWithSplashImage:[UIImage IFTTTDefaultLaunchImage]];
+        splashView = [[self alloc] initWithSplashImage:[UIImage IFTTTDefaultLaunchImage]];
     });
     
     return splashView;
