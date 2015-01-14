@@ -6,9 +6,16 @@
 
 When your app first launches, you'll probably have some loading or setup to do before you can display your initial user interface. Instead of showing your user a broken or half-loaded interface, why not animate a smooth transition from your app's launch image to your fully loaded user interface? Unlike normal images in your asset catalog, unfortunately it is not obvious how to reach into your asset catalog to programmatically access the correct launch image for the user's current device.
 
-`IFTTTLaunchImage` is a simple category on `UIImage` that aims to solve exactly this problem. Check out the `Example` app for an app that, upon launch, immediately (re)displays its launch image, then animates from the launch image to its initial interface. 
+`IFTTTLaunchImage` is a simple set of classes that simplify working with launch images in your asset catalog.
 
-Here it is in action in the `Example` app:
+## What's in the Box
+
+- `UIImage+IFTTTLaunchImage` and `UIDevice+IFTTTLaunchImage` are simple categories that make it easy to access the correct launch image for the user's current device.
+- `IFTTTSplashView` is a view containing your launch image that you can display when your app launches. When your app has finished launching and loading its initial interface, the splash view can be dismissed using one of several nifty built-in animations.
+
+Check out `Example` for an app that animates from its launch image to its initial interface. 
+
+Here it is in action in the `Example` app, using the built-in animation `IFTTTSplashAnimationDrop`:
 
 ![IFTTTLaunchImage](https://github.com/IFTTT/IFTTTLaunchImage/blob/master/launch.gif)
 
@@ -19,7 +26,7 @@ To run the example project, clone the repo, and run `pod install` from the `Exam
 ## Installation
 
 IFTTTLaunchImage is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your `Podfile`:
+it, add the following line to your `Podfile`:
 
     pod "IFTTTLaunchImage"
 
@@ -31,4 +38,4 @@ it, simply add the following line to your `Podfile`:
 
 IFTTTLaunchImage is available under the MIT license. See the LICENSE file for more info.
 
-Copyright 2015 IFTTT Inc.
+Copyright © 2015 IFTTT Inc.

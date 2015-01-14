@@ -8,10 +8,10 @@
 
 #import "ViewController.h"
 #import <UIImage+IFTTTLaunchImage.h>
+#import <IFTTTSplashView.h>
 
 @interface ViewController ()
 
-@property (nonatomic, strong) UIImageView *launchImageView;
 @property (nonatomic, strong) UILabel *label;
 
 @end
@@ -32,22 +32,13 @@
     [self.view addSubview:self.label];
     self.label.center = self.view.center;
     
-    _launchImageView = [[UIImageView alloc] initWithImage:[UIImage IFTTTDefaultLaunchImage]];
-    [self.view addSubview:self.launchImageView];
-    
     // Other setup might happen here...
-    
-    [UIView animateWithDuration:2.5f
-                          delay:1.f
-                        options:UIViewAnimationOptionCurveEaseOut
-                     animations:^{
-                         self.launchImageView.alpha = 0.f;
-                     }
-                     completion:^(BOOL finished) {
-                         [self.launchImageView removeFromSuperview];
-                     }];
-    
-    
+
+    [[IFTTTSplashView sharedSplash] dismissSplashWithAnimation:IFTTTSplashAnimationDrop
+                                                      duration:0.75f
+                                                         delay:1.5f
+                                                       options:UIViewAnimationOptionCurveEaseIn
+                                                    completion:nil];
 }
 
 @end

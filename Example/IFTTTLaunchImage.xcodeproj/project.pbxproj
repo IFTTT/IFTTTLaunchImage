@@ -449,6 +449,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"FB_REFERENCE_IMAGE_DIR=\\\"$(SOURCE_ROOT)/IFTTTLaunchImageTests/ReferenceImages\\\"",
 				);
 				INFOPLIST_FILE = IFTTTLaunchImageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

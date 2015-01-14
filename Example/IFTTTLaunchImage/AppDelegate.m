@@ -8,14 +8,13 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-
-@interface AppDelegate ()
-
-@end
+#import <IFTTTSplashView.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[IFTTTSplashView sharedSplash] showSplash];
+    
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = [ViewController new];
     [self.window makeKeyAndVisible];
