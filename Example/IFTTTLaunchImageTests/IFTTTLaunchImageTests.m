@@ -8,9 +8,11 @@
 
 @import UIKit;
 @import XCTest;
+#import <FBSnapshotTestCase.h>
 #import <UIImage+IFTTTLaunchImage.h>
+#import <IFTTTSplashView.h>
 
-@interface IFTTTLaunchImageTests : XCTestCase
+@interface IFTTTLaunchImageTests : FBSnapshotTestCase
 
 @end
 
@@ -18,11 +20,13 @@
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    self.renderAsLayer = YES;
+    
+//    self.recordMode = YES;
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
@@ -32,6 +36,16 @@
     XCTAssertNotNil(defaultImage, @"Should have returned a default launch image");
     XCTAssertTrue([defaultImage isKindOfClass:[UIImage class]], @"Should have returned an image");
     XCTAssertFalse(CGSizeEqualToSize(defaultImage.size, CGSizeZero), @"Launch image should have a nonzero size");
+}
+
+- (void)testLaunchSnapshot {
+    UIImageView *launchImageView = [[UIImageView alloc] initWithImage:[UIImage IFTTTDefaultLaunchImage]];
+    FBSnapshotVerifyView(launchImageView, nil);
+}
+
+- (void)testSplashView {
+    [[IFTTTSplashView sharedSplash] showSplash];
+    FBSnapshotVerifyView([IFTTTSplashView sharedSplash], nil);
 }
 
 @end

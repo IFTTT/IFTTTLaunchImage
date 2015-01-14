@@ -14,4 +14,5 @@ end
 
 target 'IFTTTLaunchImageTests', :exclusive => true do
   install_pods
+  pod 'FBSnapshotTestCase'
 end
