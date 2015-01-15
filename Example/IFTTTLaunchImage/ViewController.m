@@ -24,7 +24,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     _label = [UILabel new];
-    self.label.font = [UIFont italicSystemFontOfSize:20.f];
+    self.label.font = [UIFont italicSystemFontOfSize:22.f];
     self.label.textColor = [UIColor redColor];
     self.label.text = @"Hello IFTTTLaunchImage!";
     self.label.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin;

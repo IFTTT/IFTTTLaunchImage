@@ -11,7 +11,7 @@
 
 @interface IFTTTSplashViewController : UIViewController
 
-@property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic, strong, readonly) UIImageView *imageView;
 
 - (instancetype)initWithSplashImage:(UIImage *)image;
 
@@ -137,8 +137,7 @@
                                      transform = CGAffineTransformRotate(transform, angle);
                                      self.transform = transform;
                                  }
-                             }
-                             completion:^(BOOL finished) {
+                             } completion:^(BOOL finished) {
                                  self.hidden = YES;
                                  
                                  if (completion) {
