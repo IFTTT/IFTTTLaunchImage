@@ -6,7 +6,7 @@
 
 When your app first launches, you'll probably have some loading or setup to do before you can display your initial user interface. Instead of showing your user a broken or half-loaded interface, why not animate a smooth transition from your app's launch image to your fully loaded user interface? Unlike normal images in your asset catalog, unfortunately it is not obvious how to reach into your asset catalog to programmatically access the correct launch image for the user's current device.
 
-`IFTTTLaunchImage` is a simple set of classes that simplify working with launch images in your asset catalog.
+`IFTTTLaunchImage` is a set of classes that simplify working with launch images in your asset catalog.
 
 ## What's in the Box
 
