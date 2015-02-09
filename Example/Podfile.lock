@@ -1,5 +1,5 @@
 PODS:
-  - FBSnapshotTestCase (1.4)
+  - FBSnapshotTestCase (1.5)
   - IFTTTLaunchImage (0.3.1)
 
 DEPENDENCIES:
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../IFTTTLaunchImage.podspec
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: f9f225b5ba11c8d8c09075590490df16314e4d62
-  IFTTTLaunchImage: 5f3a7531b5d7b0a60ae3a1c561f9188dc51a8514
+  FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
+  IFTTTLaunchImage: 059621fbc639d57744f02721e85a0d6fec05d2ec
 
 COCOAPODS: 0.35.0
