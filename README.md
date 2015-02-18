@@ -6,16 +6,30 @@
 
 When your app first launches, you'll probably have some loading or setup to do before you can display your initial user interface. Instead of showing your user a broken or half-loaded interface, why not animate a smooth transition from your app's launch image to your fully loaded user interface? Unlike normal images in your asset catalog, unfortunately it is not obvious how to reach into your asset catalog to programmatically access the correct launch image for the user's current device.
 
-`IFTTTLaunchImage` is a set of classes that simplify working with launch images in your asset catalog.
+`IFTTTLaunchImage` is a set of classes that simplify working with launch images in your asset catalog as well as nib-based launch screens.
 
 ## What's in the Box
 
 - `UIImage+IFTTTLaunchImage` and `UIDevice+IFTTTLaunchImage` are simple categories that make it easy to access the correct launch image for the user's current device.
-- `IFTTTSplashView` is a view containing your launch image that you can display when your app launches. When your app has finished launching and loading its initial interface, the splash view can be dismissed using one of several nifty built-in animations.
+- `IFTTTSplashView` is a view containing your launch image or launch screen that you can display when your app launches. When your app has finished launching and loading its initial interface, the splash view can be dismissed using one of several nifty built-in animations.
 
-Check out `Example` for an app that animates from its launch image to its initial interface. 
+`IFTTTSplashView` also has full support for `UINib`-based Launch Screens as well as splash screens that display a custom `UIView`. Check out `IFTTTSplashView.h` for more details.
 
-Here it is in action in the `Example` app, using the built-in animation `IFTTTSplashAnimationDrop`:
+## Examples
+
+`ExampleImage` is an app that animates from its launch image to its initial interface. 
+
+`ExampleLaunchScreen` is an app that animates from its nib-based launch screen to its initial interface.
+
+To try the example projects:
+
+```bash
+pod try IFTTTLaunchImage
+```
+
+Or just `open IFTTTLaunchImage.xcworkspace` or `open IFTTTLaunchScreen.xcworkspace`.
+
+Here it is in action in the `ExampleImage` app, using the built-in animation `IFTTTSplashAnimationDrop`:
 
 ![IFTTTLaunchImage](https://github.com/IFTTT/IFTTTLaunchImage/blob/master/launch.gif)
 

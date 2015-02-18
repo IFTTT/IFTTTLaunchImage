@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+xcodeproj 'IFTTTLaunchScreen'
+
+platform :ios, '7.0'
+
+pod "IFTTTLaunchImage", :path => "../IFTTTLaunchImage.podspec"

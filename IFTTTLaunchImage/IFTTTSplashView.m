@@ -11,6 +11,7 @@
 
 @interface IFTTTSplashViewController : UIViewController
 
+@property (nonatomic, strong) UIView *customView;
 @property (nonatomic, strong, readonly) UIImageView *imageView;
 
 - (instancetype)initWithSplashImage:(UIImage *)image;
@@ -21,7 +22,7 @@
 
 - (instancetype)initWithSplashImage:(UIImage *)image
 {
-    if ((self = [super initWithFrame:CGRectZero])) {
+    if ((self = [self initWithFrame:CGRectZero])) {
         self.windowLevel = UIWindowLevelNormal + 1.f;
         self.hidden = YES;
         
@@ -44,7 +45,7 @@
     return splashView;
 }
 
-#pragma mark - Launch image
+#pragma mark - Launch Image
 
 - (UIImage *)image
 {
@@ -54,6 +55,18 @@
 - (void)setImage:(UIImage *)image
 {
     ((IFTTTSplashViewController *)self.rootViewController).imageView.image = image;
+}
+
+#pragma mark - Custom View
+
+- (UIView *)customView
+{
+    return ((IFTTTSplashViewController *)self.rootViewController).customView;
+}
+
+- (void)setCustomView:(UIView *)customView
+{
+    ((IFTTTSplashViewController *)self.rootViewController).customView = customView;
 }
 
 #pragma mark - Display
@@ -66,6 +79,16 @@
     [self setFrame:[[UIScreen mainScreen] bounds]];
     
     self.hidden = NO;
+}
+
+- (void)showSplashWithNibName:(NSString *)nibName bundle:(NSBundle *)nibBundle
+{
+    UINib *nib = [UINib nibWithNibName:nibName bundle:nibBundle];
+    NSArray *nibItems = [nib instantiateWithOwner:nil options:nil];
+    
+    [self setCustomView:[nibItems firstObject]];
+    
+    [self showSplash];
 }
 
 #pragma mark - Dismissal
@@ -160,6 +183,18 @@
     }
     
     return self;
+}
+
+- (void)setCustomView:(UIView *)customView
+{
+    if (customView == _customView) {
+        return;
+    }
+    
+    [self.customView removeFromSuperview];
+    _customView = customView;
+    [self.view addSubview:self.customView];
+    [self.customView setFrame:self.view.bounds];
 }
 
 - (void)viewDidLoad
