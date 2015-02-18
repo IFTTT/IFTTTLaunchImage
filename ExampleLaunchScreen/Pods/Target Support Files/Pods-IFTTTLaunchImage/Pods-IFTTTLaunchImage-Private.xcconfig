@@ -1,0 +1,5 @@
+#include "Pods-IFTTTLaunchImage.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/IFTTTLaunchImage" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/IFTTTLaunchImage"
+OTHER_LDFLAGS = ${PODS_IFTTTLAUNCHIMAGE_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
