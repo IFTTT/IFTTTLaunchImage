@@ -15,4 +15,5 @@ end
 target 'IFTTTLaunchImageTests', :exclusive => true do
   install_pods
   pod 'FBSnapshotTestCase'
+  pod 'MXGSynchronizeTest'
 end

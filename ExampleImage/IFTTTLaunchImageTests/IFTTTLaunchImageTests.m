@@ -10,7 +10,9 @@
 @import XCTest;
 #import <FBSnapshotTestCase.h>
 #import <UIImage+IFTTTLaunchImage.h>
+#import <UIDevice+IFTTTLaunchImage.h>
 #import <IFTTTSplashView.h>
+#import <XCTest+MXGSynchronizeTest.h>
 
 @interface IFTTTLaunchImageTests : FBSnapshotTestCase
 
@@ -43,9 +45,58 @@
     FBSnapshotVerifyView(launchImageView, nil);
 }
 
-- (void)testSplashView {
+#pragma mark - Splash View
+
+- (void)testSplashViewShowsImage {
     [[IFTTTSplashView sharedSplash] showSplash];
     FBSnapshotVerifyView([IFTTTSplashView sharedSplash], nil);
+}
+
+- (void)testSplashViewImageAccess {
+    UIImage *image = [UIImage IFTTTDefaultLaunchImage];
+    
+    [[IFTTTSplashView sharedSplash] setImage:image];
+    
+    XCTAssertEqualObjects([IFTTTSplashView sharedSplash].image, image, @"Images should be equal");
+}
+
+- (void)testSplashCustomViewAccess {
+    UIView *view = [UIView new];
+    
+    [[IFTTTSplashView sharedSplash] setCustomView:view];
+    
+    XCTAssertEqualObjects([IFTTTSplashView sharedSplash].customView, view, @"Views should be set and retrieved");
+}
+
+- (void)testSplashViewDismissalTypes {
+    
+    for (NSNumber *dismissalType in @[ @(IFTTTSplashAnimationDrop),
+                                       @(IFTTTSplashAnimationFade),
+                                       @(IFTTTSplashAnimationGrowFade),
+                                       @(IFTTTSplashAnimationNone) ]) {
+        [[IFTTTSplashView sharedSplash] showSplash];
+        
+        XCTAssertFalse([IFTTTSplashView sharedSplash].hidden, @"Splash should be visible");
+        
+        [XCTest mxg_synchronizeTest:^(BOOL *finished) {
+            [[IFTTTSplashView sharedSplash] dismissSplashWithAnimation:[dismissalType unsignedIntegerValue]
+                                                            completion:^
+             {
+                 *finished = YES;
+                 XCTAssertTrue([IFTTTSplashView sharedSplash].hidden, @"Should be hidden");
+             }];
+        }];
+    }
+}
+
+#pragma mark - UIDevice
+
+- (void)testIsIPhone {
+    XCTAssertFalse([[UIDevice currentDevice] IFTTTDeviceIsiPad], @"This test should be run on iPhone");
+}
+
+- (void)testIsPortrait {
+    XCTAssertFalse([[UIDevice currentDevice] IFTTTDeviceIsLandscape], @"This test should be run in portrait");
 }
 
 @end
