@@ -1,6 +1,6 @@
 # IFTTTLaunchImage
 
-[![Build Status](https://travis-ci.org/IFTTT/IFTTTLaunchImage.svg?branch=master)](https://travis-ci.org/IFTTT/IFTTTLaunchImage)
+[![Build Status](https://travis-ci.org/IFTTT/IFTTTLaunchImage.svg?branch=master)](https://travis-ci.org/IFTTT/IFTTTLaunchImage) [![Coverage Status](https://coveralls.io/repos/IFTTT/IFTTTLaunchImage/badge.svg)](https://coveralls.io/r/IFTTT/IFTTTLaunchImage)
 
 [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) in Xcode 5+ are pretty neat. You can keep all of your app's assets in one place, you can see at a glance which image scales you're using, and you can even use asset catalogs for your app's icon and launch image.
 

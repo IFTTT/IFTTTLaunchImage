@@ -1,10 +1,12 @@
 PODS:
   - FBSnapshotTestCase (1.5)
   - IFTTTLaunchImage (0.4.0)
+  - MXGSynchronizeTest (1.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - IFTTTLaunchImage (from `../IFTTTLaunchImage.podspec`)
+  - MXGSynchronizeTest
 
 EXTERNAL SOURCES:
   IFTTTLaunchImage:
@@ -13,5 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
   IFTTTLaunchImage: ab9e6adfce1699a480cae7ccbfda7697502ed871
+  MXGSynchronizeTest: 8f2f041ca6896caec74463ab43743d97d3dc8c18
 
 COCOAPODS: 0.35.0
