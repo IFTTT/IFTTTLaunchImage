@@ -12,7 +12,6 @@
 #import <UIImage+IFTTTLaunchImage.h>
 #import <UIDevice+IFTTTLaunchImage.h>
 #import <IFTTTSplashView.h>
-#import <XCTest+MXGSynchronizeTest.h>
 
 @interface IFTTTLaunchImageTests : FBSnapshotTestCase
 
@@ -22,8 +21,6 @@
 
 - (void)setUp {
     [super setUp];
-    
-    self.renderAsLayer = YES;
     
 //    self.recordMode = YES;
 }
@@ -74,18 +71,22 @@
                                        @(IFTTTSplashAnimationFade),
                                        @(IFTTTSplashAnimationGrowFade),
                                        @(IFTTTSplashAnimationNone) ]) {
+        
+        XCTestExpectation *expectation = [self expectationWithDescription:
+                                          [NSString stringWithFormat:@"Animation type %@", dismissalType]];
+        
         [[IFTTTSplashView sharedSplash] showSplash];
         
         XCTAssertFalse([IFTTTSplashView sharedSplash].hidden, @"Splash should be visible");
         
-        [XCTest mxg_synchronizeTest:^(BOOL *finished) {
-            [[IFTTTSplashView sharedSplash] dismissSplashWithAnimation:[dismissalType unsignedIntegerValue]
-                                                            completion:^
-             {
-                 *finished = YES;
-                 XCTAssertTrue([IFTTTSplashView sharedSplash].hidden, @"Should be hidden");
-             }];
-        }];
+        [[IFTTTSplashView sharedSplash] dismissSplashWithAnimation:[dismissalType unsignedIntegerValue]
+                                                        completion:^
+         {
+             XCTAssertTrue([IFTTTSplashView sharedSplash].hidden, @"Should be hidden");
+             [expectation fulfill];
+         }];
+        
+        [self waitForExpectationsWithTimeout:5 handler:nil];
     }
 }
 

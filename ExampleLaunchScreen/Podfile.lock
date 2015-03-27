@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../IFTTTLaunchImage.podspec
 
 SPEC CHECKSUMS:
-  IFTTTLaunchImage: ab9e6adfce1699a480cae7ccbfda7697502ed871
+  IFTTTLaunchImage: 7068bb11e74f257d834ef07e712859d4f5b10936
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.1

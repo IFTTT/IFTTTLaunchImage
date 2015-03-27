@@ -9,7 +9,7 @@
 // FBSnapshotTestCase
 #define COCOAPODS_POD_AVAILABLE_FBSnapshotTestCase
 #define COCOAPODS_VERSION_MAJOR_FBSnapshotTestCase 1
-#define COCOAPODS_VERSION_MINOR_FBSnapshotTestCase 5
+#define COCOAPODS_VERSION_MINOR_FBSnapshotTestCase 6
 #define COCOAPODS_VERSION_PATCH_FBSnapshotTestCase 0
 
 // IFTTTLaunchImage
@@ -17,10 +17,4 @@
 #define COCOAPODS_VERSION_MAJOR_IFTTTLaunchImage 0
 #define COCOAPODS_VERSION_MINOR_IFTTTLaunchImage 4
 #define COCOAPODS_VERSION_PATCH_IFTTTLaunchImage 0
-
-// MXGSynchronizeTest
-#define COCOAPODS_POD_AVAILABLE_MXGSynchronizeTest
-#define COCOAPODS_VERSION_MAJOR_MXGSynchronizeTest 1
-#define COCOAPODS_VERSION_MINOR_MXGSynchronizeTest 1
-#define COCOAPODS_VERSION_PATCH_MXGSynchronizeTest 0
 
