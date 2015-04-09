@@ -1,0 +1,1 @@
+../../../../../IFTTTLaunchImage/IFTTTSplashView.h

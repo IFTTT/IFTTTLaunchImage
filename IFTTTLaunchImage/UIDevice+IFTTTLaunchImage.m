@@ -16,7 +16,7 @@
 }
 
 - (BOOL) IFTTTDeviceIsLandscape {
-    return UIDeviceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]);
+    return UIInterfaceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]);
 }
 
 @end
