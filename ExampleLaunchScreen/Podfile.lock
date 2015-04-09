@@ -1,5 +1,5 @@
 PODS:
-  - IFTTTLaunchImage (0.4.0)
+  - IFTTTLaunchImage (0.4.1)
 
 DEPENDENCIES:
   - IFTTTLaunchImage (from `../IFTTTLaunchImage.podspec`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../IFTTTLaunchImage.podspec
 
 SPEC CHECKSUMS:
-  IFTTTLaunchImage: 7068bb11e74f257d834ef07e712859d4f5b10936
+  IFTTTLaunchImage: af0c8f2f366efcdb54cc971f54ccceed32dbf0a7
 
-COCOAPODS: 0.36.1
+COCOAPODS: 0.36.3
