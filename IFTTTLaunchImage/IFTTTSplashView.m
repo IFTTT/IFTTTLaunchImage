@@ -73,9 +73,9 @@
 
 - (void)showSplash
 {
-    self.alpha = 1.f;
-    self.transform = CGAffineTransformIdentity;
-
+    self.rootViewController.view.alpha = 1.f;
+    self.rootViewController.view.transform = CGAffineTransformIdentity;
+    
     [self setFrame:[[UIScreen mainScreen] bounds]];
     
     self.hidden = NO;
@@ -140,11 +140,11 @@
                              animations:^{
                                  
                                  if (animation == IFTTTSplashAnimationGrowFade || animation == IFTTTSplashAnimationFade) {
-                                     self.alpha = 0.f;
+                                     self.rootViewController.view.alpha = 0.f;
                                  }
                                  
                                  if (animation == IFTTTSplashAnimationGrowFade) {
-                                     self.transform = CGAffineTransformConcat(self.transform, CGAffineTransformMakeScale(2.f, 2.f));
+                                     self.rootViewController.view.transform = CGAffineTransformMakeScale(2.f, 2.f);
                                  }
                                  
                                  if (animation == IFTTTSplashAnimationDrop) {
@@ -158,7 +158,7 @@
                                      
                                      CGAffineTransform transform = CGAffineTransformMakeTranslation(0, 1.5f * CGRectGetHeight([[UIScreen mainScreen] bounds]));
                                      transform = CGAffineTransformRotate(transform, angle);
-                                     self.transform = transform;
+                                     self.rootViewController.view.transform = transform;
                                  }
                              } completion:^(BOOL finished) {
                                  self.hidden = YES;
@@ -210,7 +210,11 @@
     return YES;
 }
 
+#ifdef __IPHONE_9_0
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
+#else
+- (NSUInteger)supportedInterfaceOrientations
+#endif
 {
     return UIInterfaceOrientationMaskAll;
 }
