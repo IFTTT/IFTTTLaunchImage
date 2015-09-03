@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB5D3719CB4DFDC3A4381CF6"
+               BlueprintIdentifier = "35BA835202D53B3FABD86946"
                BuildableName = "libIFTTTLaunchImage.a"
                BlueprintName = "IFTTTLaunchImage"
                ReferencedContainer = "container:Pods.xcodeproj">

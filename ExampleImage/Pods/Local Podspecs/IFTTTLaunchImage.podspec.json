@@ -1,6 +1,6 @@
 {
   "name": "IFTTTLaunchImage",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "summary": "Put your asset catalog launch images to work for you.",
   "homepage": "https://github.com/IFTTT/IFTTTLaunchImage",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/IFTTT/IFTTTLaunchImage.git",
-    "tag": "0.4.1"
+    "tag": "0.4.2"
   },
   "social_media_url": "https://twitter.com/jhersh",
   "platforms": {

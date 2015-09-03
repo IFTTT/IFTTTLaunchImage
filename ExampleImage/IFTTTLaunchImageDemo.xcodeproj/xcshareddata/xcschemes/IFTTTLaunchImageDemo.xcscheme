@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5EB303671A5DD7A400C19E11"
-               BuildableName = "IFTTTLaunchImage.app"
-               BlueprintName = "IFTTTLaunchImage"
-               ReferencedContainer = "container:IFTTTLaunchImage.xcodeproj">
+               BuildableName = "IFTTTLaunchImageDemo.app"
+               BlueprintName = "IFTTTLaunchImageDemo"
+               ReferencedContainer = "container:IFTTTLaunchImageDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,27 +29,27 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5EB303801A5DD7A400C19E11"
-               BuildableName = "IFTTTLaunchImageTests.xctest"
-               BlueprintName = "IFTTTLaunchImageTests"
-               ReferencedContainer = "container:IFTTTLaunchImage.xcodeproj">
+               BuildableName = "IFTTTLaunchImageDemo.xctest"
+               BlueprintName = "IFTTTLaunchImageDemoTests"
+               ReferencedContainer = "container:IFTTTLaunchImageDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5EB303801A5DD7A400C19E11"
-               BuildableName = "IFTTTLaunchImageTests.xctest"
-               BlueprintName = "IFTTTLaunchImageTests"
-               ReferencedContainer = "container:IFTTTLaunchImage.xcodeproj">
+               BuildableName = "IFTTTLaunchImageDemo.xctest"
+               BlueprintName = "IFTTTLaunchImageDemoTests"
+               ReferencedContainer = "container:IFTTTLaunchImageDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,46 +57,51 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5EB303671A5DD7A400C19E11"
-            BuildableName = "IFTTTLaunchImage.app"
-            BlueprintName = "IFTTTLaunchImage"
-            ReferencedContainer = "container:IFTTTLaunchImage.xcodeproj">
+            BuildableName = "IFTTTLaunchImageDemo.app"
+            BlueprintName = "IFTTTLaunchImageDemo"
+            ReferencedContainer = "container:IFTTTLaunchImageDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5EB303671A5DD7A400C19E11"
-            BuildableName = "IFTTTLaunchImage.app"
-            BlueprintName = "IFTTTLaunchImage"
-            ReferencedContainer = "container:IFTTTLaunchImage.xcodeproj">
+            BuildableName = "IFTTTLaunchImageDemo.app"
+            BlueprintName = "IFTTTLaunchImageDemo"
+            ReferencedContainer = "container:IFTTTLaunchImageDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5EB303671A5DD7A400C19E11"
-            BuildableName = "IFTTTLaunchImage.app"
-            BlueprintName = "IFTTTLaunchImage"
-            ReferencedContainer = "container:IFTTTLaunchImage.xcodeproj">
+            BuildableName = "IFTTTLaunchImageDemo.app"
+            BlueprintName = "IFTTTLaunchImageDemo"
+            ReferencedContainer = "container:IFTTTLaunchImageDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,7 +7,7 @@ env:
 - LC_CTYPE=en_US.UTF-8 LANG=en_US.UTF-8
 script:
 - set -o pipefail && xcodebuild -workspace ExampleImage/IFTTTLaunchImage.xcworkspace -scheme
-  IFTTTLaunchImage -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6"
+  IFTTTLaunchImageDemo -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6"
   GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES clean test | xcpretty -c
 - pod lib lint --quick
 - obcd --path IFTTTLaunchImage find HeaderStyle

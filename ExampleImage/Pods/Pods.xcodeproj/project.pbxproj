@@ -7,151 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172A7CF84BB59C0244086A1A76424547 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E22F97D027369C749BBED333A3581C12 /* UIImage+Diff.h */; };
-		407F831513EC0EE4E3131DFF2C80BDEA /* IFTTTSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = 209C8339E0F4CF363C58D5ED6F6CBB9F /* IFTTTSplashView.h */; };
-		4769926D032240F3F0CBACCF1297DAD5 /* Pods-IFTTTLaunchImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A7E259FC8883AECAB0B60A1A1A5EA /* Pods-IFTTTLaunchImage-dummy.m */; };
-		4C75013D7CAAFB04F21EF40DE1B824E3 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C04CB73AC3C6FA60AF0CA32D87A930 /* FBSnapshotTestCase.m */; };
-		533E1964F04E56E8ABADF5BF18FC5CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE65DAB4124D6E8A14D6D5F68415F57 /* Foundation.framework */; };
-		58117A749C30E569F1F4C644BADFF18F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE65DAB4124D6E8A14D6D5F68415F57 /* Foundation.framework */; };
-		6A484413EF066B6A804A35042A1A5022 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A956E53C8C1DB90639A6D58CA83FFBA /* UIImage+Compare.h */; };
-		769880D1EC5771A009D5DC70FBBC0A3B /* IFTTTSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FEF698C72A00D58B524E2DE1DEEAA6 /* IFTTTSplashView.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
-		778D5AC97A11BF1E2BDD6535EDC0C926 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FFE6612FCECF853ADE97D22A2ED916 /* UIImage+Compare.m */; };
-		836F27AE161EF4604D47D488F547F386 /* UIDevice+IFTTTLaunchImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F09F01F64B3DBCF3E76FC55A360423 /* UIDevice+IFTTTLaunchImage.h */; };
-		8376D2C135A0477E9D12ECA89B1EEA0E /* UIImage+IFTTTLaunchImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F035B74D8F9D1BD0F5476899E1C12BD /* UIImage+IFTTTLaunchImage.h */; };
-		84241BC271123CDBAB300CB33435ADE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE65DAB4124D6E8A14D6D5F68415F57 /* Foundation.framework */; };
-		871B5F66EE6FBC020F37F67E7358EA0B /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2939987116238EFF25CDD7DBF97B2CA2 /* FBSnapshotTestCase-dummy.m */; };
-		8A1CB254C0F2642C92ABE829223F33E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D06E45D8D7779842C5BA0C4D5401C2 /* XCTest.framework */; };
-		97046D14D65A0E53ACD0C1D9B636A11C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484ED6A97067D5B4363C9E7E2816C848 /* UIKit.framework */; };
-		A0BBFE6F9F45FFD384DCC3DBCEDCFE1C /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 518F9A7BFA199216709A5216648F0C30 /* UIImage+Diff.m */; };
-		A8A1BC1AA729A927F1527DEF553DF932 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EA200780CCC246C97C95AE26932DA2 /* FBSnapshotTestController.h */; };
-		B301FA64FA35410D34D90BCBE9A29E8A /* Pods-IFTTTLaunchImageTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3BC4D977C2206309C612BA4578DD82 /* Pods-IFTTTLaunchImageTests-dummy.m */; };
-		B956F2E0C493544EC1071533B67B8AE3 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6237187040D060519DB2097221FE92E5 /* FBSnapshotTestCase.h */; };
-		C663CEB38085840D3C3A7926E1C45CE8 /* UIDevice+IFTTTLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B15006E7E745951445F126E140A13069 /* UIDevice+IFTTTLaunchImage.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
-		C874CB03DBC24ADA7018BF7CCB78E2ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE65DAB4124D6E8A14D6D5F68415F57 /* Foundation.framework */; };
-		D4CEDCD990A2229DC0647B46C5863C71 /* UIImage+IFTTTLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB53A0A703A0645A0D47AB905D1220 /* UIImage+IFTTTLaunchImage.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
-		D91520C6DD5EE7E8D89D1249B1947D23 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F279669C3DDA26BE8AB754ED2C96B34 /* FBSnapshotTestController.m */; };
-		FC95654B7E89E7BF06873D7D5D63E255 /* IFTTTLaunchImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E192DD957CA8D9157240F3F54473DF /* IFTTTLaunchImage-dummy.m */; };
+		0109AB0B9CF4BEDFE253EE856D2DE0B9 /* UIImage+IFTTTLaunchImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E334A7008FB58967E58B999A223C6E7 /* UIImage+IFTTTLaunchImage.h */; };
+		19582A993C71B278DEB681A8E025D96D /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E376815B00C1BC89B8F66F789C68C /* FBSnapshotTestCase-dummy.m */; };
+		3836C3CEED4D47C566DB8ECBCE419701 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB598041EA322AD9C0CE88B9CB84516 /* FBSnapshotTestCase.m */; };
+		4A143613A27674A392E4038F7CF20142 /* UIDevice+IFTTTLaunchImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3FC63CE3F3F6F2A91DF87FCD693F75 /* UIDevice+IFTTTLaunchImage.h */; };
+		4DB41C10FB831ED1D895CEC655469585 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E44A9D49806D08232539650BDC0F1C /* FBSnapshotTestCase.h */; };
+		51680233F28B507BDB24685CDA16294B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62A49ADA50A556F9DA00FFFE16F932B /* Foundation.framework */; };
+		6D151EB5642E311B7527AB5A02D91F38 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0CFAAF97532D53B70FFE3D41D66FE6 /* UIImage+Compare.h */; };
+		7B7D18CD24F1450CD2159823EF01E8B3 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E29EBF3524FCC939F3058BF9DAB7FCD /* UIImage+Compare.m */; };
+		8250030C1B871E2C4886A87D8EE7657C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62A49ADA50A556F9DA00FFFE16F932B /* Foundation.framework */; };
+		96D74A08ADC714361298C73FA6E0C278 /* IFTTTSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 984ACA2D4DFFC5C885021E9ADBEBCC9B /* IFTTTSplashView.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		9A022F2CAF30A7951F108B0332FC154D /* UIImage+IFTTTLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A129261D30C16696A4555F2F8553CE /* UIImage+IFTTTLaunchImage.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		9F194260188E66DAD182A5009043766F /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F612CA79CA3AA53DDEBBBF4DEAACE4 /* FBSnapshotTestController.h */; };
+		A00EC7742DEC80FBB3F6F6F62D4C5CFF /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E028E4F611E62F724B70A85AEEECC11 /* UIImage+Diff.h */; };
+		A102E25BD5462AE147BB7E6AEF359CEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F09A1967C280E94AF230EE306D75814 /* UIKit.framework */; };
+		A53D9507ADF7EA73FE800B28D1699764 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0916466550E8454394DE7DB054D814A /* XCTest.framework */; };
+		A56CD5DA63C4C1BB4DD4A64F352B0BEC /* Pods-IFTTTLaunchImageDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B5FCC19FFD4ACF0BE229C989253C1 /* Pods-IFTTTLaunchImageDemo-dummy.m */; };
+		AA16923E41961D5268DF8D7DFCFA6058 /* IFTTTSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FCEFE9A3C5F326C37E0628345B957E5 /* IFTTTSplashView.h */; };
+		ADDEA37B9491E27FB2E9263AA4331C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62A49ADA50A556F9DA00FFFE16F932B /* Foundation.framework */; };
+		BECDD114447736B88FADBE0E9FBDC3E1 /* IFTTTLaunchImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 639F591BC8FF40F6C82CDA84BD1F8B3C /* IFTTTLaunchImage-dummy.m */; };
+		CD919BDF0BE3F95A315C899047EDC071 /* Pods-IFTTTLaunchImageDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F5648918B6C280FFBC4D8851217266 /* Pods-IFTTTLaunchImageDemoTests-dummy.m */; };
+		E76D10B2D885C6AB55C8769C646F90BD /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78481D34AC7F81132C129A6DF0EAA84 /* FBSnapshotTestController.m */; };
+		EA1652ABB7E1528C14C785635EA2D40F /* UIDevice+IFTTTLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC1304F93E93821C52108E1A2F6799 /* UIDevice+IFTTTLaunchImage.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		F33E43284212A4A2A1383462451C98FF /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A20E1E8D61D18597C8C90F40A5EE91 /* UIImage+Diff.m */; };
+		F85EFE306695C4957C94B7853BDB17E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62A49ADA50A556F9DA00FFFE16F932B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C0FED569A1B4D86AC17ADF7D14D71DAB /* PBXContainerItemProxy */ = {
+		4A41124BBC8F9E62F237BFE4E420828E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 99FA5E415580E03E4D63D52011E05A68;
-			remoteInfo = IFTTTLaunchImage;
-		};
-		E4AAED0F0864AF381E12867C0A691EB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2094FD4B64AEBEC91289478DFBC88761;
+			remoteGlobalIDString = 71C0167D7D2CF325FD1DE062D7177920;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		EE2731E0EDAE488A7590A2931B16729E /* PBXContainerItemProxy */ = {
+		ACD8178953508FC771F86E8641F9AC97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 99FA5E415580E03E4D63D52011E05A68;
+			remoteGlobalIDString = 84D5B52580697DB727666BEF22C98CDE;
+			remoteInfo = IFTTTLaunchImage;
+		};
+		C1EACAC756FA8F60CF37B27AF47418E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D5B52580697DB727666BEF22C98CDE;
 			remoteInfo = IFTTTLaunchImage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02E192DD957CA8D9157240F3F54473DF /* IFTTTLaunchImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFTTTLaunchImage-dummy.m"; sourceTree = "<group>"; };
-		0E24FF6FA002159C825129F964887982 /* Pods-IFTTTLaunchImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFTTTLaunchImage.release.xcconfig"; sourceTree = "<group>"; };
-		0F035B74D8F9D1BD0F5476899E1C12BD /* UIImage+IFTTTLaunchImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+IFTTTLaunchImage.h"; sourceTree = "<group>"; };
-		103EA0D78B929EA201EF92FE1580048B /* libIFTTTLaunchImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIFTTTLaunchImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		14FFE6612FCECF853ADE97D22A2ED916 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
-		15F09F01F64B3DBCF3E76FC55A360423 /* UIDevice+IFTTTLaunchImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IFTTTLaunchImage.h"; sourceTree = "<group>"; };
-		1A956E53C8C1DB90639A6D58CA83FFBA /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
-		209C8339E0F4CF363C58D5ED6F6CBB9F /* IFTTTSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFTTTSplashView.h; sourceTree = "<group>"; };
-		2939987116238EFF25CDD7DBF97B2CA2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		41C04CB73AC3C6FA60AF0CA32D87A930 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		484ED6A97067D5B4363C9E7E2816C848 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4A6A7E259FC8883AECAB0B60A1A1A5EA /* Pods-IFTTTLaunchImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFTTTLaunchImage-dummy.m"; sourceTree = "<group>"; };
-		4F279669C3DDA26BE8AB754ED2C96B34 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		518F9A7BFA199216709A5216648F0C30 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
-		6237187040D060519DB2097221FE92E5 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		64FEF698C72A00D58B524E2DE1DEEAA6 /* IFTTTSplashView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFTTTSplashView.m; sourceTree = "<group>"; };
-		6BDB53A0A703A0645A0D47AB905D1220 /* UIImage+IFTTTLaunchImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IFTTTLaunchImage.m"; sourceTree = "<group>"; };
-		6E2398AD43987BB445F4B30601E4CEFA /* IFTTTLaunchImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IFTTTLaunchImage-Private.xcconfig"; sourceTree = "<group>"; };
-		783110F6DED424FA3D18122144C328CE /* Pods-IFTTTLaunchImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFTTTLaunchImage.debug.xcconfig"; sourceTree = "<group>"; };
-		7EA431C94798A32898BE0A0244162A9A /* libPods-IFTTTLaunchImageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IFTTTLaunchImageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84B6FC1EDF54075503271956A24E5BE0 /* Pods-IFTTTLaunchImageTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IFTTTLaunchImageTests-resources.sh"; sourceTree = "<group>"; };
-		872A5E1F56C7F89BC883891E9D2D4EAB /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F3BC4D977C2206309C612BA4578DD82 /* Pods-IFTTTLaunchImageTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFTTTLaunchImageTests-dummy.m"; sourceTree = "<group>"; };
-		8FE65DAB4124D6E8A14D6D5F68415F57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		961557918DF271974C3CF52CBF566286 /* Pods-IFTTTLaunchImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFTTTLaunchImageTests.release.xcconfig"; sourceTree = "<group>"; };
-		9A00661B86CA2C9A17E8BF2179185AA1 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		0A47AB2F2DBDE16D42F5580A7582949C /* Pods-IFTTTLaunchImageDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IFTTTLaunchImageDemo-resources.sh"; sourceTree = "<group>"; };
+		135E9D64DF8B6722723D4582CDFEE215 /* libIFTTTLaunchImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIFTTTLaunchImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E028E4F611E62F724B70A85AEEECC11 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
+		1E334A7008FB58967E58B999A223C6E7 /* UIImage+IFTTTLaunchImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+IFTTTLaunchImage.h"; sourceTree = "<group>"; };
+		1FCEFE9A3C5F326C37E0628345B957E5 /* IFTTTSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFTTTSplashView.h; sourceTree = "<group>"; };
+		216ECDB23792A84FABC6AB60B39030B4 /* Pods-IFTTTLaunchImageDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFTTTLaunchImageDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		237B281F5AC2827D6E13E139056C9191 /* Pods-IFTTTLaunchImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFTTTLaunchImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		37743072086DDD8FEE1FF6968B63B8FC /* IFTTTLaunchImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IFTTTLaunchImage-Private.xcconfig"; sourceTree = "<group>"; };
+		47C9BDD32318E5277F04E118E4E2E6B2 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		566B5FCC19FFD4ACF0BE229C989253C1 /* Pods-IFTTTLaunchImageDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFTTTLaunchImageDemo-dummy.m"; sourceTree = "<group>"; };
+		639F591BC8FF40F6C82CDA84BD1F8B3C /* IFTTTLaunchImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFTTTLaunchImage-dummy.m"; sourceTree = "<group>"; };
+		64A129261D30C16696A4555F2F8553CE /* UIImage+IFTTTLaunchImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IFTTTLaunchImage.m"; sourceTree = "<group>"; };
+		6E0CFAAF97532D53B70FFE3D41D66FE6 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
+		787B12E46DD0398D835CE7B0E8114B3F /* Pods-IFTTTLaunchImageDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFTTTLaunchImageDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F09A1967C280E94AF230EE306D75814 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E29EBF3524FCC939F3058BF9DAB7FCD /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
+		984ACA2D4DFFC5C885021E9ADBEBCC9B /* IFTTTSplashView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFTTTSplashView.m; sourceTree = "<group>"; };
 		9A11B68968024AD272425FBAE102B7FE /* IFTTTLaunchImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFTTTLaunchImage.xcconfig; sourceTree = "<group>"; };
-		9F92992C71A98108153CB8DCF7579547 /* Pods-IFTTTLaunchImageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFTTTLaunchImageTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A8D06E45D8D7779842C5BA0C4D5401C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9A3B8A27EC9147DF1D09697EA11F8B2F /* libPods-IFTTTLaunchImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IFTTTLaunchImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADC1304F93E93821C52108E1A2F6799 /* UIDevice+IFTTTLaunchImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IFTTTLaunchImage.m"; sourceTree = "<group>"; };
+		9B3FC63CE3F3F6F2A91DF87FCD693F75 /* UIDevice+IFTTTLaunchImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IFTTTLaunchImage.h"; sourceTree = "<group>"; };
+		9D7E376815B00C1BC89B8F66F789C68C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		A3F5648918B6C280FFBC4D8851217266 /* Pods-IFTTTLaunchImageDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFTTTLaunchImageDemoTests-dummy.m"; sourceTree = "<group>"; };
+		A5CCC39B35B0F6838335EDC967850F89 /* Pods-IFTTTLaunchImageDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFTTTLaunchImageDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7F612CA79CA3AA53DDEBBBF4DEAACE4 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AE892786C523B7F9F229125CE1F43E04 /* Pods-IFTTTLaunchImageDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFTTTLaunchImageDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B05C0A021944C80541128CAF9EB72CB8 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		B13F9D31CF157240C331CC1AA54F29CA /* libPods-IFTTTLaunchImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IFTTTLaunchImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B15006E7E745951445F126E140A13069 /* UIDevice+IFTTTLaunchImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IFTTTLaunchImage.m"; sourceTree = "<group>"; };
-		B66FFF4ABEA06B05F8C302F97093AC55 /* Pods-IFTTTLaunchImage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFTTTLaunchImage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B346855772DEC470A62557976501A2E9 /* Pods-IFTTTLaunchImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFTTTLaunchImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3A20E1E8D61D18597C8C90F40A5EE91 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
 		C6A808073D7E55DD008A002597A64C33 /* IFTTTLaunchImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFTTTLaunchImage-prefix.pch"; sourceTree = "<group>"; };
-		C6EA200780CCC246C97C95AE26932DA2 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		DE04358F9B3976DDE052B8963781E6A5 /* Pods-IFTTTLaunchImage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFTTTLaunchImage-acknowledgements.plist"; sourceTree = "<group>"; };
-		E22F97D027369C749BBED333A3581C12 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E448F91489E84351DD55E1A4507DA766 /* Pods-IFTTTLaunchImage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IFTTTLaunchImage-resources.sh"; sourceTree = "<group>"; };
-		ECD4CCF96DC4C4DF414F4A6AE4E9DCC1 /* Pods-IFTTTLaunchImageTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFTTTLaunchImageTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ECF25ED72E1E8EE05E2405F573B8A049 /* Pods-IFTTTLaunchImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFTTTLaunchImageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAB012654890CEB5985676E16BFEB869 /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB598041EA322AD9C0CE88B9CB84516 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		D0916466550E8454394DE7DB054D814A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E0E44A9D49806D08232539650BDC0F1C /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E158A419695D86B928119C2D75BD7A4B /* libPods-IFTTTLaunchImageDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IFTTTLaunchImageDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE410A306E279DECE19E1F4D6B6728B /* Pods-IFTTTLaunchImageDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFTTTLaunchImageDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED4C9CAE283DBD30C7BAF1EE35A4EE29 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		EF6856674583DA170E98B0DC13D57979 /* Pods-IFTTTLaunchImageDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IFTTTLaunchImageDemoTests-resources.sh"; sourceTree = "<group>"; };
+		F43ABE10BF4C90BBBE2AAE8806FFC456 /* Pods-IFTTTLaunchImageDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFTTTLaunchImageDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F62A49ADA50A556F9DA00FFFE16F932B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F78481D34AC7F81132C129A6DF0EAA84 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1964971C4CE87BAFC61ECDCCADCCCEF5 /* Frameworks */ = {
+		63128EE4CCEF8B6979B1DA6B5426F4D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533E1964F04E56E8ABADF5BF18FC5CF6 /* Foundation.framework in Frameworks */,
+				8250030C1B871E2C4886A87D8EE7657C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		304586AD7E079714F1370FEE9D8C5623 /* Frameworks */ = {
+		96C60597077BD5725FAF9FB0CB239B33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84241BC271123CDBAB300CB33435ADE3 /* Foundation.framework in Frameworks */,
+				51680233F28B507BDB24685CDA16294B /* Foundation.framework in Frameworks */,
+				A102E25BD5462AE147BB7E6AEF359CEF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36E46CE92EC976DB21A096F54BBC7EC0 /* Frameworks */ = {
+		BCDC51385E8E1A44C4B86455102774FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58117A749C30E569F1F4C644BADFF18F /* Foundation.framework in Frameworks */,
-				97046D14D65A0E53ACD0C1D9B636A11C /* UIKit.framework in Frameworks */,
+				ADDEA37B9491E27FB2E9263AA4331C34 /* Foundation.framework in Frameworks */,
+				A53D9507ADF7EA73FE800B28D1699764 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAC796DBBEFC44C1AEB0B60AD3B48A85 /* Frameworks */ = {
+		C2BBF078C8370354D8CBF9F5492AA5EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C874CB03DBC24ADA7018BF7CCB78E2ED /* Foundation.framework in Frameworks */,
-				8A1CB254C0F2642C92ABE829223F33E9 /* XCTest.framework in Frameworks */,
+				F85EFE306695C4957C94B7853BDB17E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B0C732A7FAE5AF7AC5673BC1E4FCE3E /* Pods-IFTTTLaunchImage */ = {
+		0AB862876B221AA9D0FB507D4A191E60 /* Pods-IFTTTLaunchImageDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				B66FFF4ABEA06B05F8C302F97093AC55 /* Pods-IFTTTLaunchImage-acknowledgements.markdown */,
-				DE04358F9B3976DDE052B8963781E6A5 /* Pods-IFTTTLaunchImage-acknowledgements.plist */,
-				4A6A7E259FC8883AECAB0B60A1A1A5EA /* Pods-IFTTTLaunchImage-dummy.m */,
-				E448F91489E84351DD55E1A4507DA766 /* Pods-IFTTTLaunchImage-resources.sh */,
-				783110F6DED424FA3D18122144C328CE /* Pods-IFTTTLaunchImage.debug.xcconfig */,
-				0E24FF6FA002159C825129F964887982 /* Pods-IFTTTLaunchImage.release.xcconfig */,
+				216ECDB23792A84FABC6AB60B39030B4 /* Pods-IFTTTLaunchImageDemoTests-acknowledgements.markdown */,
+				787B12E46DD0398D835CE7B0E8114B3F /* Pods-IFTTTLaunchImageDemoTests-acknowledgements.plist */,
+				A3F5648918B6C280FFBC4D8851217266 /* Pods-IFTTTLaunchImageDemoTests-dummy.m */,
+				EF6856674583DA170E98B0DC13D57979 /* Pods-IFTTTLaunchImageDemoTests-resources.sh */,
+				AE892786C523B7F9F229125CE1F43E04 /* Pods-IFTTTLaunchImageDemoTests.debug.xcconfig */,
+				ECE410A306E279DECE19E1F4D6B6728B /* Pods-IFTTTLaunchImageDemoTests.release.xcconfig */,
 			);
-			name = "Pods-IFTTTLaunchImage";
-			path = "Target Support Files/Pods-IFTTTLaunchImage";
+			name = "Pods-IFTTTLaunchImageDemoTests";
+			path = "Target Support Files/Pods-IFTTTLaunchImageDemoTests";
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
@@ -165,9 +165,9 @@
 		3B8137962D5109D5F3D982079CF3F646 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8FE65DAB4124D6E8A14D6D5F68415F57 /* Foundation.framework */,
-				484ED6A97067D5B4363C9E7E2816C848 /* UIKit.framework */,
-				A8D06E45D8D7779842C5BA0C4D5401C2 /* XCTest.framework */,
+				F62A49ADA50A556F9DA00FFFE16F932B /* Foundation.framework */,
+				7F09A1967C280E94AF230EE306D75814 /* UIKit.framework */,
+				D0916466550E8454394DE7DB054D814A /* XCTest.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -175,31 +175,17 @@
 		490EFE44FB186FAD511047B7B3D6A9C8 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				6237187040D060519DB2097221FE92E5 /* FBSnapshotTestCase.h */,
-				41C04CB73AC3C6FA60AF0CA32D87A930 /* FBSnapshotTestCase.m */,
-				C6EA200780CCC246C97C95AE26932DA2 /* FBSnapshotTestController.h */,
-				4F279669C3DDA26BE8AB754ED2C96B34 /* FBSnapshotTestController.m */,
-				1A956E53C8C1DB90639A6D58CA83FFBA /* UIImage+Compare.h */,
-				14FFE6612FCECF853ADE97D22A2ED916 /* UIImage+Compare.m */,
-				E22F97D027369C749BBED333A3581C12 /* UIImage+Diff.h */,
-				518F9A7BFA199216709A5216648F0C30 /* UIImage+Diff.m */,
+				E0E44A9D49806D08232539650BDC0F1C /* FBSnapshotTestCase.h */,
+				CAB598041EA322AD9C0CE88B9CB84516 /* FBSnapshotTestCase.m */,
+				A7F612CA79CA3AA53DDEBBBF4DEAACE4 /* FBSnapshotTestController.h */,
+				F78481D34AC7F81132C129A6DF0EAA84 /* FBSnapshotTestController.m */,
+				6E0CFAAF97532D53B70FFE3D41D66FE6 /* UIImage+Compare.h */,
+				8E29EBF3524FCC939F3058BF9DAB7FCD /* UIImage+Compare.m */,
+				1E028E4F611E62F724B70A85AEEECC11 /* UIImage+Diff.h */,
+				C3A20E1E8D61D18597C8C90F40A5EE91 /* UIImage+Diff.m */,
 				C3D2CEB9A9B44B514EF4F082A3ADFA91 /* Support Files */,
 			);
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		541AD034FCB4DB48E69A3BE14BBC27B2 /* Pods-IFTTTLaunchImageTests */ = {
-			isa = PBXGroup;
-			children = (
-				ECD4CCF96DC4C4DF414F4A6AE4E9DCC1 /* Pods-IFTTTLaunchImageTests-acknowledgements.markdown */,
-				9F92992C71A98108153CB8DCF7579547 /* Pods-IFTTTLaunchImageTests-acknowledgements.plist */,
-				8F3BC4D977C2206309C612BA4578DD82 /* Pods-IFTTTLaunchImageTests-dummy.m */,
-				84B6FC1EDF54075503271956A24E5BE0 /* Pods-IFTTTLaunchImageTests-resources.sh */,
-				ECF25ED72E1E8EE05E2405F573B8A049 /* Pods-IFTTTLaunchImageTests.debug.xcconfig */,
-				961557918DF271974C3CF52CBF566286 /* Pods-IFTTTLaunchImageTests.release.xcconfig */,
-			);
-			name = "Pods-IFTTTLaunchImageTests";
-			path = "Target Support Files/Pods-IFTTTLaunchImageTests";
 			sourceTree = "<group>";
 		};
 		63AD1D04099EA97C37835025DC66D897 /* Development Pods */ = {
@@ -210,21 +196,12 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6B38E2DCA3F540F7A29767D42F2CB5D8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B0C732A7FAE5AF7AC5673BC1E4FCE3E /* Pods-IFTTTLaunchImage */,
-				541AD034FCB4DB48E69A3BE14BBC27B2 /* Pods-IFTTTLaunchImageTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		7D2F1285067C525D99CB5D979A571362 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				9A11B68968024AD272425FBAE102B7FE /* IFTTTLaunchImage.xcconfig */,
-				6E2398AD43987BB445F4B30601E4CEFA /* IFTTTLaunchImage-Private.xcconfig */,
-				02E192DD957CA8D9157240F3F54473DF /* IFTTTLaunchImage-dummy.m */,
+				37743072086DDD8FEE1FF6968B63B8FC /* IFTTTLaunchImage-Private.xcconfig */,
+				639F591BC8FF40F6C82CDA84BD1F8B3C /* IFTTTLaunchImage-dummy.m */,
 				C6A808073D7E55DD008A002597A64C33 /* IFTTTLaunchImage-prefix.pch */,
 			);
 			name = "Support Files";
@@ -239,7 +216,7 @@
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				FB1DA474A0966E6BA50D7C701DCA7A81 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				6B38E2DCA3F540F7A29767D42F2CB5D8 /* Targets Support Files */,
+				E7ACB522546C23471DEBD896C3DE4761 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,8 +224,8 @@
 			isa = PBXGroup;
 			children = (
 				B05C0A021944C80541128CAF9EB72CB8 /* FBSnapshotTestCase.xcconfig */,
-				9A00661B86CA2C9A17E8BF2179185AA1 /* FBSnapshotTestCase-Private.xcconfig */,
-				2939987116238EFF25CDD7DBF97B2CA2 /* FBSnapshotTestCase-dummy.m */,
+				47C9BDD32318E5277F04E118E4E2E6B2 /* FBSnapshotTestCase-Private.xcconfig */,
+				9D7E376815B00C1BC89B8F66F789C68C /* FBSnapshotTestCase-dummy.m */,
 				ED4C9CAE283DBD30C7BAF1EE35A4EE29 /* FBSnapshotTestCase-prefix.pch */,
 			);
 			name = "Support Files";
@@ -258,12 +235,26 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				872A5E1F56C7F89BC883891E9D2D4EAB /* libFBSnapshotTestCase.a */,
-				103EA0D78B929EA201EF92FE1580048B /* libIFTTTLaunchImage.a */,
-				B13F9D31CF157240C331CC1AA54F29CA /* libPods-IFTTTLaunchImage.a */,
-				7EA431C94798A32898BE0A0244162A9A /* libPods-IFTTTLaunchImageTests.a */,
+				CAB012654890CEB5985676E16BFEB869 /* libFBSnapshotTestCase.a */,
+				135E9D64DF8B6722723D4582CDFEE215 /* libIFTTTLaunchImage.a */,
+				9A3B8A27EC9147DF1D09697EA11F8B2F /* libPods-IFTTTLaunchImageDemo.a */,
+				E158A419695D86B928119C2D75BD7A4B /* libPods-IFTTTLaunchImageDemoTests.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E06C697DC3467A46FF27DD2A7CF549 /* Pods-IFTTTLaunchImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A5CCC39B35B0F6838335EDC967850F89 /* Pods-IFTTTLaunchImageDemo-acknowledgements.markdown */,
+				F43ABE10BF4C90BBBE2AAE8806FFC456 /* Pods-IFTTTLaunchImageDemo-acknowledgements.plist */,
+				566B5FCC19FFD4ACF0BE229C989253C1 /* Pods-IFTTTLaunchImageDemo-dummy.m */,
+				0A47AB2F2DBDE16D42F5580A7582949C /* Pods-IFTTTLaunchImageDemo-resources.sh */,
+				B346855772DEC470A62557976501A2E9 /* Pods-IFTTTLaunchImageDemo.debug.xcconfig */,
+				237B281F5AC2827D6E13E139056C9191 /* Pods-IFTTTLaunchImageDemo.release.xcconfig */,
+			);
+			name = "Pods-IFTTTLaunchImageDemo";
+			path = "Target Support Files/Pods-IFTTTLaunchImageDemo";
 			sourceTree = "<group>";
 		};
 		DE386B4F41AAD22737A407C2819C4D80 /* IFTTTLaunchImage */ = {
@@ -274,6 +265,15 @@
 			);
 			name = IFTTTLaunchImage;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		E7ACB522546C23471DEBD896C3DE4761 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E06C697DC3467A46FF27DD2A7CF549 /* Pods-IFTTTLaunchImageDemo */,
+				0AB862876B221AA9D0FB507D4A191E60 /* Pods-IFTTTLaunchImageDemoTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		FB1DA474A0966E6BA50D7C701DCA7A81 /* Pods */ = {
@@ -287,12 +287,12 @@
 		FBA06E2F2EA879E1EB70A8E807C827E2 /* IFTTTLaunchImage */ = {
 			isa = PBXGroup;
 			children = (
-				209C8339E0F4CF363C58D5ED6F6CBB9F /* IFTTTSplashView.h */,
-				64FEF698C72A00D58B524E2DE1DEEAA6 /* IFTTTSplashView.m */,
-				15F09F01F64B3DBCF3E76FC55A360423 /* UIDevice+IFTTTLaunchImage.h */,
-				B15006E7E745951445F126E140A13069 /* UIDevice+IFTTTLaunchImage.m */,
-				0F035B74D8F9D1BD0F5476899E1C12BD /* UIImage+IFTTTLaunchImage.h */,
-				6BDB53A0A703A0645A0D47AB905D1220 /* UIImage+IFTTTLaunchImage.m */,
+				1FCEFE9A3C5F326C37E0628345B957E5 /* IFTTTSplashView.h */,
+				984ACA2D4DFFC5C885021E9ADBEBCC9B /* IFTTTSplashView.m */,
+				9B3FC63CE3F3F6F2A91DF87FCD693F75 /* UIDevice+IFTTTLaunchImage.h */,
+				9ADC1304F93E93821C52108E1A2F6799 /* UIDevice+IFTTTLaunchImage.m */,
+				1E334A7008FB58967E58B999A223C6E7 /* UIImage+IFTTTLaunchImage.h */,
+				64A129261D30C16696A4555F2F8553CE /* UIImage+IFTTTLaunchImage.m */,
 			);
 			path = IFTTTLaunchImage;
 			sourceTree = "<group>";
@@ -300,37 +300,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EB3DD85138127350F83CCC693DA22623 /* Headers */ = {
+		51AA541CBEC23F8261AD0CC246F0D991 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B956F2E0C493544EC1071533B67B8AE3 /* FBSnapshotTestCase.h in Headers */,
-				A8A1BC1AA729A927F1527DEF553DF932 /* FBSnapshotTestController.h in Headers */,
-				6A484413EF066B6A804A35042A1A5022 /* UIImage+Compare.h in Headers */,
-				172A7CF84BB59C0244086A1A76424547 /* UIImage+Diff.h in Headers */,
+				4DB41C10FB831ED1D895CEC655469585 /* FBSnapshotTestCase.h in Headers */,
+				9F194260188E66DAD182A5009043766F /* FBSnapshotTestController.h in Headers */,
+				6D151EB5642E311B7527AB5A02D91F38 /* UIImage+Compare.h in Headers */,
+				A00EC7742DEC80FBB3F6F6F62D4C5CFF /* UIImage+Diff.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F064F6C363D4B57E4C444883751F6F97 /* Headers */ = {
+		F8CCD652709AE4C774C233CF7D7F1B03 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407F831513EC0EE4E3131DFF2C80BDEA /* IFTTTSplashView.h in Headers */,
-				836F27AE161EF4604D47D488F547F386 /* UIDevice+IFTTTLaunchImage.h in Headers */,
-				8376D2C135A0477E9D12ECA89B1EEA0E /* UIImage+IFTTTLaunchImage.h in Headers */,
+				AA16923E41961D5268DF8D7DFCFA6058 /* IFTTTSplashView.h in Headers */,
+				4A143613A27674A392E4038F7CF20142 /* UIDevice+IFTTTLaunchImage.h in Headers */,
+				0109AB0B9CF4BEDFE253EE856D2DE0B9 /* UIImage+IFTTTLaunchImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2094FD4B64AEBEC91289478DFBC88761 /* FBSnapshotTestCase */ = {
+		71C0167D7D2CF325FD1DE062D7177920 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 566ED787807F9C1815D3A2092FB5C13F /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = BA57B0491C2CCB0D8ECE93FA0E9DBC85 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
 			buildPhases = (
-				AB21FAAE1FB7F11D326EE12E796A4A15 /* Sources */,
-				DAC796DBBEFC44C1AEB0B60AD3B48A85 /* Frameworks */,
-				EB3DD85138127350F83CCC693DA22623 /* Headers */,
+				50AD8CD3F8680D4E193F8ADD992533F5 /* Sources */,
+				BCDC51385E8E1A44C4B86455102774FF /* Frameworks */,
+				51AA541CBEC23F8261AD0CC246F0D991 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -338,51 +338,34 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 872A5E1F56C7F89BC883891E9D2D4EAB /* libFBSnapshotTestCase.a */;
+			productReference = CAB012654890CEB5985676E16BFEB869 /* libFBSnapshotTestCase.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		3BFC4B5A68754E189A942EB5221C1083 /* Pods-IFTTTLaunchImage */ = {
+		81466735D157FBF1C6FD449D223EE946 /* Pods-IFTTTLaunchImageDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46E8661B3545A69DC5ABFB465121226C /* Build configuration list for PBXNativeTarget "Pods-IFTTTLaunchImage" */;
+			buildConfigurationList = C27E4D413CBFA95DCE3B6D73DA0083BD /* Build configuration list for PBXNativeTarget "Pods-IFTTTLaunchImageDemoTests" */;
 			buildPhases = (
-				F04B8D4D210D534794DCC5BF9409FA3B /* Sources */,
-				1964971C4CE87BAFC61ECDCCADCCCEF5 /* Frameworks */,
+				E5AAB3A14862FF9DD6FB8C44E3E5AF80 /* Sources */,
+				C2BBF078C8370354D8CBF9F5492AA5EA /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A23FF4F3409C568F078EDB30DBA6DBE2 /* PBXTargetDependency */,
+				8FA61FAD2AF9F2D8161E137D794CCCFA /* PBXTargetDependency */,
+				00DB7F25DAD1A2CD57A2E62E22F47084 /* PBXTargetDependency */,
 			);
-			name = "Pods-IFTTTLaunchImage";
-			productName = "Pods-IFTTTLaunchImage";
-			productReference = B13F9D31CF157240C331CC1AA54F29CA /* libPods-IFTTTLaunchImage.a */;
+			name = "Pods-IFTTTLaunchImageDemoTests";
+			productName = "Pods-IFTTTLaunchImageDemoTests";
+			productReference = E158A419695D86B928119C2D75BD7A4B /* libPods-IFTTTLaunchImageDemoTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		4F905CC4F78BC6387DC740456F842FB3 /* Pods-IFTTTLaunchImageTests */ = {
+		84D5B52580697DB727666BEF22C98CDE /* IFTTTLaunchImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94ABDBB997555C38F1135F64A695C611 /* Build configuration list for PBXNativeTarget "Pods-IFTTTLaunchImageTests" */;
+			buildConfigurationList = 7B2E05446D8861CE459F3FBB2158245F /* Build configuration list for PBXNativeTarget "IFTTTLaunchImage" */;
 			buildPhases = (
-				49681898AA5D2E55BF374D3C8DE01BFC /* Sources */,
-				304586AD7E079714F1370FEE9D8C5623 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47AF73DEB2683326CFB12421D06ABA82 /* PBXTargetDependency */,
-				2D2DA10988E65A57CBDFC16C0C84D6CD /* PBXTargetDependency */,
-			);
-			name = "Pods-IFTTTLaunchImageTests";
-			productName = "Pods-IFTTTLaunchImageTests";
-			productReference = 7EA431C94798A32898BE0A0244162A9A /* libPods-IFTTTLaunchImageTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		99FA5E415580E03E4D63D52011E05A68 /* IFTTTLaunchImage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 94518F063769CB2CCFEC25B84E443886 /* Build configuration list for PBXNativeTarget "IFTTTLaunchImage" */;
-			buildPhases = (
-				74F7A362902AD533D1D87FA284B36D4E /* Sources */,
-				36E46CE92EC976DB21A096F54BBC7EC0 /* Frameworks */,
-				F064F6C363D4B57E4C444883751F6F97 /* Headers */,
+				07E1F4141EFB834CE2D445ADBEE36CEB /* Sources */,
+				96C60597077BD5725FAF9FB0CB239B33 /* Frameworks */,
+				F8CCD652709AE4C774C233CF7D7F1B03 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -390,7 +373,24 @@
 			);
 			name = IFTTTLaunchImage;
 			productName = IFTTTLaunchImage;
-			productReference = 103EA0D78B929EA201EF92FE1580048B /* libIFTTTLaunchImage.a */;
+			productReference = 135E9D64DF8B6722723D4582CDFEE215 /* libIFTTTLaunchImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8FA27B4435334D6EEE9167EBFC6F3712 /* Pods-IFTTTLaunchImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB242A92920FE2E7BD82ED366E309AE8 /* Build configuration list for PBXNativeTarget "Pods-IFTTTLaunchImageDemo" */;
+			buildPhases = (
+				4F06D00B3D137BD0F9138FDBDF7202F7 /* Sources */,
+				63128EE4CCEF8B6979B1DA6B5426F4D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40749F07FC7DE6BD460F9CC6C1583A37 /* PBXTargetDependency */,
+			);
+			name = "Pods-IFTTTLaunchImageDemo";
+			productName = "Pods-IFTTTLaunchImageDemo";
+			productReference = 9A3B8A27EC9147DF1D09697EA11F8B2F /* libPods-IFTTTLaunchImageDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -414,78 +414,94 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2094FD4B64AEBEC91289478DFBC88761 /* FBSnapshotTestCase */,
-				99FA5E415580E03E4D63D52011E05A68 /* IFTTTLaunchImage */,
-				3BFC4B5A68754E189A942EB5221C1083 /* Pods-IFTTTLaunchImage */,
-				4F905CC4F78BC6387DC740456F842FB3 /* Pods-IFTTTLaunchImageTests */,
+				71C0167D7D2CF325FD1DE062D7177920 /* FBSnapshotTestCase */,
+				84D5B52580697DB727666BEF22C98CDE /* IFTTTLaunchImage */,
+				8FA27B4435334D6EEE9167EBFC6F3712 /* Pods-IFTTTLaunchImageDemo */,
+				81466735D157FBF1C6FD449D223EE946 /* Pods-IFTTTLaunchImageDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49681898AA5D2E55BF374D3C8DE01BFC /* Sources */ = {
+		07E1F4141EFB834CE2D445ADBEE36CEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B301FA64FA35410D34D90BCBE9A29E8A /* Pods-IFTTTLaunchImageTests-dummy.m in Sources */,
+				BECDD114447736B88FADBE0E9FBDC3E1 /* IFTTTLaunchImage-dummy.m in Sources */,
+				96D74A08ADC714361298C73FA6E0C278 /* IFTTTSplashView.m in Sources */,
+				EA1652ABB7E1528C14C785635EA2D40F /* UIDevice+IFTTTLaunchImage.m in Sources */,
+				9A022F2CAF30A7951F108B0332FC154D /* UIImage+IFTTTLaunchImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74F7A362902AD533D1D87FA284B36D4E /* Sources */ = {
+		4F06D00B3D137BD0F9138FDBDF7202F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC95654B7E89E7BF06873D7D5D63E255 /* IFTTTLaunchImage-dummy.m in Sources */,
-				769880D1EC5771A009D5DC70FBBC0A3B /* IFTTTSplashView.m in Sources */,
-				C663CEB38085840D3C3A7926E1C45CE8 /* UIDevice+IFTTTLaunchImage.m in Sources */,
-				D4CEDCD990A2229DC0647B46C5863C71 /* UIImage+IFTTTLaunchImage.m in Sources */,
+				A56CD5DA63C4C1BB4DD4A64F352B0BEC /* Pods-IFTTTLaunchImageDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB21FAAE1FB7F11D326EE12E796A4A15 /* Sources */ = {
+		50AD8CD3F8680D4E193F8ADD992533F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				871B5F66EE6FBC020F37F67E7358EA0B /* FBSnapshotTestCase-dummy.m in Sources */,
-				4C75013D7CAAFB04F21EF40DE1B824E3 /* FBSnapshotTestCase.m in Sources */,
-				D91520C6DD5EE7E8D89D1249B1947D23 /* FBSnapshotTestController.m in Sources */,
-				778D5AC97A11BF1E2BDD6535EDC0C926 /* UIImage+Compare.m in Sources */,
-				A0BBFE6F9F45FFD384DCC3DBCEDCFE1C /* UIImage+Diff.m in Sources */,
+				19582A993C71B278DEB681A8E025D96D /* FBSnapshotTestCase-dummy.m in Sources */,
+				3836C3CEED4D47C566DB8ECBCE419701 /* FBSnapshotTestCase.m in Sources */,
+				E76D10B2D885C6AB55C8769C646F90BD /* FBSnapshotTestController.m in Sources */,
+				7B7D18CD24F1450CD2159823EF01E8B3 /* UIImage+Compare.m in Sources */,
+				F33E43284212A4A2A1383462451C98FF /* UIImage+Diff.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F04B8D4D210D534794DCC5BF9409FA3B /* Sources */ = {
+		E5AAB3A14862FF9DD6FB8C44E3E5AF80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4769926D032240F3F0CBACCF1297DAD5 /* Pods-IFTTTLaunchImage-dummy.m in Sources */,
+				CD919BDF0BE3F95A315C899047EDC071 /* Pods-IFTTTLaunchImageDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D2DA10988E65A57CBDFC16C0C84D6CD /* PBXTargetDependency */ = {
+		00DB7F25DAD1A2CD57A2E62E22F47084 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IFTTTLaunchImage;
-			target = 99FA5E415580E03E4D63D52011E05A68 /* IFTTTLaunchImage */;
-			targetProxy = EE2731E0EDAE488A7590A2931B16729E /* PBXContainerItemProxy */;
+			target = 84D5B52580697DB727666BEF22C98CDE /* IFTTTLaunchImage */;
+			targetProxy = C1EACAC756FA8F60CF37B27AF47418E2 /* PBXContainerItemProxy */;
 		};
-		47AF73DEB2683326CFB12421D06ABA82 /* PBXTargetDependency */ = {
+		40749F07FC7DE6BD460F9CC6C1583A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IFTTTLaunchImage;
+			target = 84D5B52580697DB727666BEF22C98CDE /* IFTTTLaunchImage */;
+			targetProxy = ACD8178953508FC771F86E8641F9AC97 /* PBXContainerItemProxy */;
+		};
+		8FA61FAD2AF9F2D8161E137D794CCCFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
-			target = 2094FD4B64AEBEC91289478DFBC88761 /* FBSnapshotTestCase */;
-			targetProxy = E4AAED0F0864AF381E12867C0A691EB0 /* PBXContainerItemProxy */;
-		};
-		A23FF4F3409C568F078EDB30DBA6DBE2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IFTTTLaunchImage;
-			target = 99FA5E415580E03E4D63D52011E05A68 /* IFTTTLaunchImage */;
-			targetProxy = C0FED569A1B4D86AC17ADF7D14D71DAB /* PBXContainerItemProxy */;
+			target = 71C0167D7D2CF325FD1DE062D7177920 /* FBSnapshotTestCase */;
+			targetProxy = 4A41124BBC8F9E62F237BFE4E420828E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		033D91C9D3C2406FCACF2DDCCCC199E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE892786C523B7F9F229125CE1F43E04 /* Pods-IFTTTLaunchImageDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		052A17875CB827423D627183396CEB60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -520,105 +536,25 @@
 			};
 			name = Release;
 		};
-		4F208D5D28AFA08F54C0B3E8F6A9DBA9 /* Release */ = {
+		08DFCD16B78EF807DD78C8B84A12AFA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E24FF6FA002159C825129F964887982 /* Pods-IFTTTLaunchImage.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		57725E961246031D18A25711FC18AF7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 783110F6DED424FA3D18122144C328CE /* Pods-IFTTTLaunchImage.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		670C9F9F8A4E3487B677B8CF66060B53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E2398AD43987BB445F4B30601E4CEFA /* IFTTTLaunchImage-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/IFTTTLaunchImage/IFTTTLaunchImage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6CCFEF1D926EFA915794E56BA6D77B3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 961557918DF271974C3CF52CBF566286 /* Pods-IFTTTLaunchImageTests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7E94B25233D96441F13A5F946A46EA76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E2398AD43987BB445F4B30601E4CEFA /* IFTTTLaunchImage-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/IFTTTLaunchImage/IFTTTLaunchImage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A0CFCEADE6B5808483EC4C4BE1CFB828 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A00661B86CA2C9A17E8BF2179185AA1 /* FBSnapshotTestCase-Private.xcconfig */;
+			baseConfigurationReference = 47C9BDD32318E5277F04E118E4E2E6B2 /* FBSnapshotTestCase-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		A99A4CCC3737F431E219D8956D24A6E5 /* Debug */ = {
+		510E28BBA99B66B38B4C128F87099CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECF25ED72E1E8EE05E2405F573B8A049 /* Pods-IFTTTLaunchImageTests.debug.xcconfig */;
+			baseConfigurationReference = B346855772DEC470A62557976501A2E9 /* Pods-IFTTTLaunchImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -631,6 +567,38 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		9462F8BE2821D4492A413B093F0AA023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37743072086DDD8FEE1FF6968B63B8FC /* IFTTTLaunchImage-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IFTTTLaunchImage/IFTTTLaunchImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		977E4F3F9BAF0C222FB5510899529AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237B281F5AC2827D6E13E139056C9191 /* Pods-IFTTTLaunchImageDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -671,12 +639,44 @@
 			};
 			name = Debug;
 		};
-		F5D950308A277388C12E28F3ADC8EA66 /* Debug */ = {
+		BCF88ED19AE9473F373410FDD52F58CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A00661B86CA2C9A17E8BF2179185AA1 /* FBSnapshotTestCase-Private.xcconfig */;
+			baseConfigurationReference = 47C9BDD32318E5277F04E118E4E2E6B2 /* FBSnapshotTestCase-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CDDA01510049F40C4E21D2331516560E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE410A306E279DECE19E1F4D6B6728B /* Pods-IFTTTLaunchImageDemoTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CE940F8148CC9094FB0E20921180E15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37743072086DDD8FEE1FF6968B63B8FC /* IFTTTLaunchImage-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IFTTTLaunchImage/IFTTTLaunchImage-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -699,38 +699,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46E8661B3545A69DC5ABFB465121226C /* Build configuration list for PBXNativeTarget "Pods-IFTTTLaunchImage" */ = {
+		7B2E05446D8861CE459F3FBB2158245F /* Build configuration list for PBXNativeTarget "IFTTTLaunchImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57725E961246031D18A25711FC18AF7E /* Debug */,
-				4F208D5D28AFA08F54C0B3E8F6A9DBA9 /* Release */,
+				CE940F8148CC9094FB0E20921180E15D /* Debug */,
+				9462F8BE2821D4492A413B093F0AA023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		566ED787807F9C1815D3A2092FB5C13F /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		BA57B0491C2CCB0D8ECE93FA0E9DBC85 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5D950308A277388C12E28F3ADC8EA66 /* Debug */,
-				A0CFCEADE6B5808483EC4C4BE1CFB828 /* Release */,
+				08DFCD16B78EF807DD78C8B84A12AFA9 /* Debug */,
+				BCF88ED19AE9473F373410FDD52F58CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94518F063769CB2CCFEC25B84E443886 /* Build configuration list for PBXNativeTarget "IFTTTLaunchImage" */ = {
+		C27E4D413CBFA95DCE3B6D73DA0083BD /* Build configuration list for PBXNativeTarget "Pods-IFTTTLaunchImageDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E94B25233D96441F13A5F946A46EA76 /* Debug */,
-				670C9F9F8A4E3487B677B8CF66060B53 /* Release */,
+				033D91C9D3C2406FCACF2DDCCCC199E0 /* Debug */,
+				CDDA01510049F40C4E21D2331516560E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94ABDBB997555C38F1135F64A695C611 /* Build configuration list for PBXNativeTarget "Pods-IFTTTLaunchImageTests" */ = {
+		EB242A92920FE2E7BD82ED366E309AE8 /* Build configuration list for PBXNativeTarget "Pods-IFTTTLaunchImageDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A99A4CCC3737F431E219D8956D24A6E5 /* Debug */,
-				6CCFEF1D926EFA915794E56BA6D77B3E /* Release */,
+				510E28BBA99B66B38B4C128F87099CB4 /* Debug */,
+				977E4F3F9BAF0C222FB5510899529AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
