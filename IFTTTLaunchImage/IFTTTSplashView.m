@@ -76,7 +76,7 @@
     self.rootViewController.view.alpha = 1.f;
     self.rootViewController.view.transform = CGAffineTransformIdentity;
     
-    [self setFrame:[[UIScreen mainScreen] bounds]];
+    [self setFrame:[UIScreen mainScreen].applicationFrame];
     
     self.hidden = NO;
 }
