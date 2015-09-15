@@ -76,7 +76,18 @@
     self.rootViewController.view.alpha = 1.f;
     self.rootViewController.view.transform = CGAffineTransformIdentity;
     
-    [self setFrame:[UIScreen mainScreen].applicationFrame];
+    CGRect frame = [UIApplication sharedApplication].keyWindow.frame;
+    
+    if (CGRectEqualToRect(frame, CGRectZero)) {
+        frame = [UIScreen mainScreen].applicationFrame;
+        if (![UIApplication sharedApplication].isStatusBarHidden) {
+            CGFloat statusBarHeight = CGRectGetHeight([UIApplication sharedApplication].statusBarFrame);
+            frame.origin.y -= statusBarHeight;
+            frame.size.height += statusBarHeight;
+        }
+    }
+    
+    [self setFrame:frame];
     
     self.hidden = NO;
 }
