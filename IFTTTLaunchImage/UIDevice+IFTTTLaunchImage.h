@@ -6,7 +6,11 @@
 //  Copyright (c) 2015 Jonathan Hersh. All rights reserved.
 //
 
-@import UIKit;
+#if __has_feature(modules)
+    @import UIKit;
+#else
+    #import <UIKit/UIKit.h>
+#endif
 
 @interface UIDevice (IFTTTLaunchImage)
 
