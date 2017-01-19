@@ -1,3 +1,8 @@
+## Deprecated
+This project is not being developed. Feel free to fork!
+<br/>
+<br/>
+
 # IFTTTLaunchImage
 
 [![Build Status](https://travis-ci.org/IFTTT/IFTTTLaunchImage.svg?branch=master)](https://travis-ci.org/IFTTT/IFTTTLaunchImage) [![Coverage Status](https://coveralls.io/repos/IFTTT/IFTTTLaunchImage/badge.svg)](https://coveralls.io/r/IFTTT/IFTTTLaunchImage)
