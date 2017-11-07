@@ -43,7 +43,11 @@ NSString * const kIFTTTDefaultLaunchImageSetName = @"LaunchImage";
             [imageName appendString:@"-800-Portrait-736h"];
         }
     } else if (height == 812.f) {
-        [imageName appendString:@"-1100-2436h"];
+        if ([[UIDevice currentDevice] IFTTTDeviceIsLandscape]) {
+            [imageName appendString:@"-1100-Landscape-2436h"];
+        } else {
+            [imageName appendString:@"-1100-Portrait-2436h"];
+        }
     } else {
         [imageName appendString:@"-700"];
     }
